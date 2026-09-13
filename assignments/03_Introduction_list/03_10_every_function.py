@@ -1,0 +1,8 @@
+random = ["Mount Fuji", "Nile River", "Itally", "New York City", "German"]
+print(random)
+print(random[3])
+print(sorted(random))
+random.reverse()
+print(random)
+random.reverse()
+print(sorted(random, reverse=True))
